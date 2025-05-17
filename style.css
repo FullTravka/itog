@@ -26,9 +26,48 @@ main {
 
 h1 {
   color: #2c3e50;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
 }
 
 ul {
   list-style-type: square;
   padding-left: 20px;
+}
+
+/* Цитата */
+.quote {
+  background-color: #ecf0f1;
+  border-left: 4px solid #3498db;
+  padding: 15px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #2c3e50;
+}
+
+/* Кнопка */
+.button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Теги */
+.tag {
+  display: inline-block;
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 5px;
 }
